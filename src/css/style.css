@@ -1,0 +1,113 @@
+@font-face {
+	font-family: Roboto;
+	src: url("../fonts/Roboto.ttf");
+}
+@font-face {
+	font-family: Roboto;
+	src: url("../fonts/Robotobold.ttf");
+	font-weight: bold;
+}
+
+body{
+	font-family: Roboto, sans-serif;
+}
+
+.header{
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.conteiner{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.logo{
+	margin-right: 244px;
+	margin-bottom: 25px;
+	padding-top: 25px;
+}
+
+.header .conteiner{
+	display: flex;
+	align-items: center;
+}
+
+.logo img{
+	vertical-align: bottom;
+}
+
+.menu ul{
+	display: flex;
+}
+.menu-item{
+	margin-right: 115px;
+}
+.menu-item a {
+	font-size: 15px;
+	color: #030305;
+	text-decoration: none;
+}
+
+.menu-item a:hover{
+	border-bottom: 2px solid black;
+}
+
+li:last-child{
+	margin-right: 0;
+}
+
+.main{
+	background-image: url(../img/background.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.main-info__title{
+	padding-top: 105px;
+}
+
+.main-info__action{
+	margin-bottom: 154px;
+}
+
+.main-info{
+	max-width: 855px;
+}
+
+.main-info__title{
+	font-size: 80px;
+	line-height: 110%;
+	font-weight: bold;
+	color: #030305;
+	margin-bottom: 40px;
+}
+
+.main-info__text {
+	font-size: 16px;
+	line-height: 130%;
+	color: #030305;
+	margin-bottom: 40px;
+	max-width: 502px;
+}
+
+.button {
+	padding: 20px;
+	width: 334px;
+	height: 64px;
+	background: #030305;
+	border: 0;
+	box-sizing: border-box;
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	transition: .5s ;
+}
+
+.button:hover{
+	cursor: pointer;
+	background: #575757;
+
+}
